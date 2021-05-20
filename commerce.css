@@ -1,0 +1,75 @@
+.log {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  color: red;
+}
+#fix {
+  position: fixed;
+}
+#imag {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#mar {
+  margin-top: 30px;
+}
+.cont {
+  position: relative;
+  width: 100%;
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.cont:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-20%, -20%);
+  -ms-transform: translate(-20%, -20%);
+  transform: translate(-20%, -20%);
+  text-align: center;
+}
+#lien {
+  margin-top: 30px;
+}
+#recom {
+  margin-top: 20px;
+}
+h1 {
+  color: cornflowerblue;
+}
+#pill {
+  margin-top: 30px;
+}
+#cub {
+  margin-top: 50px;
+}
+#input {
+  margin-top: 50px;
+}
